@@ -1,0 +1,39 @@
+{
+    "title": "gosmilo.com",
+    "name": "gosmilo.com",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "gulp watch",
+        "build": "gulp build && gulp vendor"
+    },
+    "description": "GoSmilo.com",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "browserslist": [
+        "last 2 version",
+        "> 2%"
+    ],
+    "dependencies": {
+        "express": "^4.17.1",
+        "gulp-file-include": "^2.0.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.5",
+        "del": "4.1.1",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "6.1.0",
+        "gulp-clean-css": "4.2.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.2",
+        "merge-stream": "2.0.0"
+    }
+}
